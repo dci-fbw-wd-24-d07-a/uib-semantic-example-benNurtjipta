@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+ul {
+  list-style: none;
+  padding-left: 60%;
+}
+
+li {
+  display: inline-block;
+}
+
+section {
+  min-height: 100vh;
+}
+
+article {
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 2rem 2rem;
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  height: 10rem;
+  text-align: center;
+  border-top: 0.125rem solid;
+}
+
+.flink {
+  margin: 0rem 1.2rem;
+  color: rgb(199, 42, 81);
+}
+
+.link {
+  color: rgb(199, 42, 81);
+}
+
+#rund {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0.5rem auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.apic {
+  border: 1px solid;
+  margin: 0.3rem;
+}
