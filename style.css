@@ -19,18 +19,24 @@ li {
 
 section {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {
+  width: 50%;
   border: 1px solid;
   border-radius: 20px;
   margin: 2rem 2rem;
   padding: 0.5rem;
   /* display: grid;
   place-items: center; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  /* text-align: center; */
+  background-color: antiquewhite;
 }
 
 footer {
@@ -59,5 +65,10 @@ footer {
 
 .apic {
   border: 1px solid;
-  margin: 0.3rem;
+  width: 100%;
+  margin: auto;
+}
+
+article h2 {
+  text-align: center;
 }
